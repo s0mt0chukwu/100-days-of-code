@@ -3,8 +3,8 @@ import random
 from hangman_words import word_list
 from hangman_art import stages, logo
 
-print(logo
-      )
+print(logo)
+
 lives = 6
 chosen_word = random.choice(word_list)
 print(chosen_word)
@@ -39,7 +39,7 @@ while not Game_over:
 
     if guess not in chosen_word:
         lives -= 1
-        print(f"You guessed {guess},  that is not in the . Youlose a life")
+        print(f"You guessed {guess},  that is not in the . You lose a life")
         if lives == 0:
             Game_over = True
 
