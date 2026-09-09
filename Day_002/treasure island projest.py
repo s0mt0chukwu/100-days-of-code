@@ -12,7 +12,7 @@ print(r'''
  _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
 ''')
 
-print("WELCOME TO TREASURE ISLAMD")
+print("WELCOME TO TREASURE ISLAND")
 print("your mission is to find the treasure.")
 choice1 = input('you\'re at a crossroad. where do you want to go?'
                 ' Type "left" or "right".\n').lower()
