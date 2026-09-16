@@ -7,7 +7,7 @@ print(logo)
 
 lives = 6
 chosen_word = random.choice(word_list)
-print(chosen_word)
+
 
 placeholder = ""
 word_length = len(chosen_word)
@@ -42,6 +42,7 @@ while not Game_over:
         print(f"You guessed {guess},  that is not in the . You lose a life")
         if lives == 0:
             Game_over = True
+            print(f" The correct answer is: {chosen_word}")
 
             print(f"************************IT WAS{chosen_word} YOU LOSE************************")
 
