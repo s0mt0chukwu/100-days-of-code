@@ -29,6 +29,7 @@ def result_compiler():
     return results
 
 
+
 all_students_data = []
 should_continue = True
 
