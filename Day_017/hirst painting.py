@@ -32,6 +32,5 @@ for dot_count in range(1, num_of_dot + 1):
         tim.setheading(0)
 
 
-
 screen = turtle_module.Screen()
 screen.exitonclick()
