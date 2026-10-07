@@ -31,5 +31,4 @@ calculate_button.grid(column=1, row=2)
 
 
 
-
 window.mainloop()
