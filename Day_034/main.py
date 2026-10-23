@@ -17,5 +17,6 @@ quiz_ui = QuizInterface()
 #     quiz.next_question()
 
 
+
 print("You have completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.questions_number}")
